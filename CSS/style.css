@@ -1,0 +1,44 @@
+.section_three_wrapper {
+  text-align: center;
+  background-image: url(../images/home/iphone11-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding: 25px 20px;
+}
+
+.iphone_11 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.iphone_11_description {
+  font-size: 30px;
+}
+.iphone_11_price {
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.lists_links_wrapper ul {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+  list-style: none;
+  margin-top: 20px;
+}
+.lists_links_wrapper ul li a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: #1874ce;
+}
+.lists_links_wrapper ul li a:hover {
+  color: black;
+}
+.lists_links_wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
