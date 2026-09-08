@@ -1,54 +1,4 @@
-<<<<<<< HEAD
-/* section - 5 */
-
-.fivth_section {
-  display: flex;
-}
-
-.fivth_section .left_side_wraper {
-  background-image: url(../images/home/apple-tv-background.jpg);
-}
-.fivth_section .right_side_wraper {
-  background-image: url(../images/home/air-pods.jpg);
-}
-
-.tv-logo {
-  padding: 50px 0;
-}
-
-.servant {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
-
-  /* padding: 20.5% 0; */
-}
-.watch {
-  display: flex;
-  justify-content: center;
-  padding: 25px 0;
-  font-size: 20px;
-}
-.watch ::after {
-  content: "\f431";
-  font-family: "FontAwesome";
-  padding-left: 15px;
-}
-.discription_4 {
-  color: #000;
-  padding: 15px 0;
-}
-.add {
-  margin-top: 13px;
-  padding: 65px 20px;
-  text-align: center;
-  color: #fff;
-  background-size: initial;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  height: 450px;
-=======
+/* section - 3 */
 .section_three_wrapper {
   text-align: center;
   background-image: url(../images/home/iphone11-bg.jpg);
@@ -92,5 +42,32 @@
   font-weight: 900;
   content: "\f105";
   padding-left: 10px;
->>>>>>> 46e782e095f70872e28d86c17d46a17ab214ea63
+}
+
+/* section - 5 */
+.fivth_section {
+    display:flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+}
+.left_side_wraper, .right_side_wraper {
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 0.5% 0% 1%;
+    padding-top: 54px;
+}
+.left_side_wraper {
+    background-image: url("../images/home/apple-tv-background.jpg");
+}
+.right_side_wraper{
+    background-image: url("../images/home/air-pods.jpg");
+    background-size: initial;
+    color: #fff;
+    background-color: #000;
+    background-position: bottom;
 }
