@@ -65,4 +65,210 @@ body {
 
 .header-wrapper .header-links-wrapper ul li.cart-link {
     padding: 12px 0 10px;
+}/* section - 1 */
+.first{
+    background-color: #fafafa;
+    text-align: center;
+    padding: 25px 0;
+}
+.title{
+    font-weight: 700;
+    font-size: 56px;
+}
+.description{
+    font-size: 25px;
+}
+.more{
+    padding: 15px 0;
+}
+.more ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.more ul li a{
+    color:#06c;
+    text-decoration: none;
+}
+.more ul li a:hover{
+    color: #000;
+}
+.more ul li a:after{
+    font-weight: 900;
+    padding-left: 10px;
+}
+/* section - 3 */
+.section_three_wrapper {
+  text-align: center;
+  background-image: url(../images/home/iphone11-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding: 25px 20px;
+}
+
+.iphone_11 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.iphone_11_description {
+  font-size: 30px;
+}
+.iphone_11_price {
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.lists_links_wrapper ul {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+  list-style: none;
+  margin-top: 20px;
+}
+.lists_links_wrapper ul li a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: #1874ce;
+}
+.lists_links_wrapper ul li a:hover {
+  color: black;
+}
+.lists_links_wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+/* section - 5 */
+.fivth_section {
+    display:flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+}
+.left_side_wraper, .right_side_wraper {
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 0.5% 0% 1%;
+    padding-top: 54px;
+}
+.left_side_wraper {
+    background-image: url("../images/home/apple-tv-background.jpg");
+}
+.right_side_wraper{
+    background-image: url("../images/home/air-pods.jpg");
+    background-size: initial;
+    color: #fff;
+    background-color: #000;
+    background-position: bottom;
+}/* section - 1 */
+.first{
+    background-color: #fafafa;
+    text-align: center;
+    padding: 25px 0;
+}
+.title{
+    font-weight: 700;
+    font-size: 56px;
+}
+.description{
+    font-size: 25px;
+}
+.more{
+    padding: 15px 0;
+}
+.more ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.more ul li a{
+    color:#06c;
+    text-decoration: none;
+}
+.more ul li a:hover{
+    color: #000;
+}
+.more ul li a:after{
+    font-weight: 900;
+    padding-left: 10px;
+}
+/* section - 3 */
+.section_three_wrapper {
+  text-align: center;
+  background-image: url(../images/home/iphone11-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding: 25px 20px;
+}
+
+.iphone_11 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.iphone_11_description {
+  font-size: 30px;
+}
+.iphone_11_price {
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.lists_links_wrapper ul {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+  list-style: none;
+  margin-top: 20px;
+}
+.lists_links_wrapper ul li a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: #1874ce;
+}
+.lists_links_wrapper ul li a:hover {
+  color: black;
+}
+.lists_links_wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+/* section - 5 */
+.fivth_section {
+    display:flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+}
+.left_side_wraper, .right_side_wraper {
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 0.5% 0% 1%;
+    padding-top: 54px;
+}
+.left_side_wraper {
+    background-image: url("../images/home/apple-tv-background.jpg");
+}
+.right_side_wraper{
+    background-image: url("../images/home/air-pods.jpg");
+    background-size: initial;
+    color: #fff;
+    background-color: #000;
+    background-position: bottom;
 }
